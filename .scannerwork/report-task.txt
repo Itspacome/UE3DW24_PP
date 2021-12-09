@@ -1,0 +1,6 @@
+projectKey=sonar-ue3dw24-pacome-perrichot
+serverUrl=http://20.101.67.93:9000
+serverVersion=7.3.0.15553
+dashboardUrl=http://20.101.67.93:9000/dashboard?id=sonar-ue3dw24-pacome-perrichot
+ceTaskId=AX2cpi1Whm9jYp2OyYMR
+ceTaskUrl=http://20.101.67.93:9000/api/ce/task?id=AX2cpi1Whm9jYp2OyYMR
