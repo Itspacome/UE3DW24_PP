@@ -11,12 +11,42 @@ describe('Test : Get all users', function() {
     })
 });
 
-describe('Test : Cannot get one user', function() {
+// describe('Test : Cannot get one user', function() {
+//     it('responds with json', function(done) {
+//         request(app)
+//         .get('/api/users/0')
+//         .set('Accept', 'application/json')
+//         .expect('Content-Type', /json/)
+//         .expect(404, done);
+//     })
+// });
+
+describe('Test : Cannot create one user', function() {
     it('responds with json', function(done) {
         request(app)
-        .get('/api/users/0')
+        .post('/createuser/')
         .set('Accept', 'application/json')
-        .expect('Content-Type', /json/)
+        .expect('Content-Type', /html/)
+        .expect(404, done);
+    })
+});
+
+describe('Test : Cannot update one user', function() {
+    it('responds with json', function(done) {
+        request(app)
+        .put('/updateuser/')
+        .set('Accept', 'application/json')
+        .expect('Content-Type', /html/)
+        .expect(404, done);
+    })
+});
+
+describe('Test : Cannot delete one user', function() {
+    it('responds with json', function(done) {
+        request(app)
+        .delete('/deleteuser/')
+        .set('Accept', 'application/json')
+        .expect('Content-Type', /html/)
         .expect(404, done);
     })
 });

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="50" lines-covered="41" line-rate="0.82" branches-valid="9" branches-covered="6" branch-rate="0.6666" timestamp="1639010286549" complexity="0" version="0.1">
+<coverage lines-valid="50" lines-covered="41" line-rate="0.82" branches-valid="9" branches-covered="6" branch-rate="0.6666" timestamp="1639014614999" complexity="0" version="0.1">
   <sources>
     <source>/home/vagrant/backend-js</source>
   </sources>
